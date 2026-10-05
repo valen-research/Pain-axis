@@ -38,6 +38,17 @@ The scripts are meant to run inside a notebook, because that is the standard Run
 
 Requirements: a GPU with enough memory for the largest model in the queue, the packages in `requirements.txt`, and the environment variable `HF_TOKEN` for gated models. The dose-selection judge needs `ANTHROPIC_API_KEY`. The SAE scripts in `appB_sae` call an external SAE API through `STEERING_API_KEY`.
 
+The ablation scripts now remove combined directions as a joint subspace. Sequential
+removal can reintroduce an earlier direction when the targets overlap. Corrected
+runs write to `results/appC_ablation_joint/`, so they cannot resume or overwrite the
+historical outputs in `results/appC_ablation/`. Use the new directory when analyzing
+corrected runs; the shipped tables have not been recomputed. The projection regression
+tests require only PyTorch and run on CPU:
+
+```sh
+python -m unittest discover -s scripts/appC_ablation -p 'test_*.py'
+```
+
 ## Citation
 
 ```bibtex
