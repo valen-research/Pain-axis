@@ -4,15 +4,16 @@ Latest checkpoint.
 Arditi et al. 2024 single-direction weight orthogonalization: one unit direction per
 vector, taken from its steering layer, is removed from every residual-writing matrix
 (embedding, attention o_proj, MLP down_proj; Gemma post-norm folded in). The original
-weights are snapshotted to CPU and restored between conditions. A strict check reports
-that each cut zeroed its target.
+weights are snapshotted to CPU and restored between conditions. Combined conditions
+remove the joint span, so a later cut cannot reintroduce an earlier direction.
+A strict check reports the remaining projection onto each target.
 
 Conditions: baseline, s1, s2, s1s2, negval, fear, s1s2_negval, s1s2_fear, random.
 Prompts: the 100 scenarios of the five categories in KEEP_CATEGORIES.
 
 Reads datasets/4.1_self_other_420_scenarios.json and
 results/vectors_layerwise/vectors_layerwise_<model>.pt (one vector per layer per direction).
-Writes results/appC_ablation/ablation_<model>.csv, by_prompt_<model>.json,
+Writes results/appC_ablation_joint/ablation_<model>.csv, by_prompt_<model>.json,
 proj_<model>.npz, verify_<model>.csv. Asks which model to run.
 Requires a GPU and the environment variable HF_TOKEN for gated models.
 """
@@ -35,7 +36,7 @@ if HF_TOKEN:
 MAX_NEW_TOKENS = 60
 BATCH_SIZE = 8
 CLEAR_CACHE_ABOVE_GB = 0   # clear the HF weight cache after every model
-OUT_DIR = Path("results") / "appC_ablation"
+OUT_DIR = Path("results") / "appC_ablation_joint"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 VEC_DIR = Path("results") / "vectors_layerwise"
 PROMPT_FILE = Path("datasets") / "4.1_self_other_420_scenarios.json"
@@ -134,22 +135,32 @@ def unit(v):
     return v / nrm if nrm > 0 else v
 
 
-def orthogonalize_single(model, rhat):
+def orthogonal_basis(rows):
+    if rows.shape[0] == 1:
+        return rows  # Preserve the original single-unit-direction arithmetic.
+    _, singular, vh = torch.linalg.svd(rows, full_matrices=False)
+    tol = max(rows.shape) * torch.finfo(rows.dtype).eps * singular[0]
+    return vh[singular > tol]
+
+
+def orthogonalize_directions(model, directions):
     # Gemma: the post-norm gain s = 1 + weight sits between the write matrix and the
-    # residual add, so the direction removed from the raw output space is s * rhat.
+    # residual add. Build the joint basis AFTER scaling the target directions.
+    directions = torch.stack(directions)
+    basis = orthogonal_basis(directions)
     with torch.no_grad():
         for name, W, scale in residual_write_matrices(model):
             W32 = W.data.float()
             dev = W32.device
             if name == "embed":
-                r = rhat.to(dev).unsqueeze(0)
+                r = basis.to(dev)
                 W32 -= (W32 @ r.T) @ r
             elif scale is None:
-                r = rhat.to(dev).unsqueeze(0)
+                r = basis.to(dev)
                 W32 -= r.T @ (r @ W32)
             else:
-                v = scale.to(dev) * rhat.to(dev)
-                v = (v / v.norm()).unsqueeze(0)
+                v = scale.to(dev) * directions.to(dev)
+                v = v / v.norm() if len(directions) == 1 else orthogonal_basis(v)
                 W32 -= v.T @ (v @ W32)
             W.data.copy_(W32.to(W.dtype))
             del W32
@@ -317,8 +328,8 @@ for REPO, MODEL_NAME, FMT, S1_LAYER, S2_LAYER in SELECTED:
         restore_weights(model, snap)
         if specs:
             applied = []
+            orthogonalize_directions(model, [single_direction(k, wl) for k, wl in specs])
             for vec_key, which_layer in specs:
-                orthogonalize_single(model, single_direction(vec_key, which_layer))
                 applied.append(f"{vec_key.split('_')[0]}@L{layer_of.get(which_layer)}"
                                if vec_key != "__random__"
                                else f"random@L{layer_of['s2']}")
