@@ -38,6 +38,8 @@ The scripts are meant to run inside a notebook, because that is the standard Run
 
 Requirements: a GPU with enough memory for the largest model in the queue, the packages in `requirements.txt`, and the environment variable `HF_TOKEN` for gated models. The dose-selection judge needs `ANTHROPIC_API_KEY`. The SAE scripts in `appB_sae` call an external SAE API through `STEERING_API_KEY`.
 
+Model names: `Qwen_3_8B_base` and `Qwen_3_14B_base` are the post-trained Qwen/Qwen3-8B and Qwen/Qwen3-14B, which the paper counts as instruction-tuned. Qwen 3 has no separate instruct release, and its base checkpoints carry a `-Base` suffix. The names are kept because the result files and the v2_controls manifests use them. Like the base models, these two run without a chat template in every script.
+
 ## Citation
 
 ```bibtex

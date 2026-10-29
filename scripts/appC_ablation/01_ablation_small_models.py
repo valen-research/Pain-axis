@@ -60,6 +60,7 @@ SMALL_MODELS = [
     ("microsoft/phi-4",                    "Phi_4",                 "chat",  6, 12),
     ("Qwen/Qwen2.5-7B",                    "Qwen_2.5_7B_base",      "raw",   8, 16),
     ("Qwen/Qwen2.5-7B-Instruct",           "Qwen_2.5_7B_instruct",  "chat",  8, 16),
+    # Qwen/Qwen3-8B and Qwen/Qwen3-14B are the post-trained (instruct) models. The _base names are kept for file compatibility.
     ("Qwen/Qwen3-8B",                      "Qwen_3_8B_base",        "raw",  21, 27),
     ("Qwen/Qwen3-14B",                     "Qwen_3_14B_base",       "raw",  16, 20),
 ]

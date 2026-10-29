@@ -84,6 +84,7 @@ MODELS = [
     ("Qwen/Qwen2.5-32B-Instruct", "Qwen_2.5_32B_instruct"),
     ("Qwen/Qwen2.5-72B", "Qwen_2.5_72B_base"),
     ("Qwen/Qwen2.5-72B-Instruct", "Qwen_2.5_72B_instruct"),
+    # Qwen/Qwen3-8B and Qwen/Qwen3-14B are the post-trained (instruct) models. The _base names are kept for file compatibility.
     ("Qwen/Qwen3-8B", "Qwen_3_8B_base"),
     ("Qwen/Qwen3-14B", "Qwen_3_14B_base"),
 ]
