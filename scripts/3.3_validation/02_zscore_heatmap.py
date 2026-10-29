@@ -38,7 +38,8 @@ im = ax.imshow(df.values, cmap="RdBu_r", vmin=-1, vmax=1, aspect="auto")
 ax.set_xticks(range(df.shape[1]))
 ax.set_xticklabels(df.columns, rotation=45, ha="right", fontsize=13)
 ax.set_yticks(range(df.shape[0]))
-ax.set_yticklabels(df.index, fontsize=13)
+ax.set_yticklabels([m.replace("Qwen 3 8B base", "Qwen 3 8B instruct").replace("Qwen 3 14B base", "Qwen 3 14B instruct")
+                    for m in df.index], fontsize=13)
 for i in range(df.shape[0]):
     for j in range(df.shape[1]):
         v = df.values[i, j]

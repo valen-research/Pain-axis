@@ -41,6 +41,7 @@ FAMILY_BREAKS = [8, 13, 16, 17, 23]
 
 
 def pretty_model(m):
+    m = m.replace("Qwen_3_8B_base", "Qwen_3_8B_instruct").replace("Qwen_3_14B_base", "Qwen_3_14B_instruct")
     return m.replace("_", " ").replace("base", "b").replace("instruct", "it")
 
 
