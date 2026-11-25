@@ -1,0 +1,289 @@
+condition,category,pain_axis,fear,negative_emotion,negative_world_state,sadness
+paper_check,gaslighting,0.848,0.464,0.524,-0.384,0.168
+paper_check,repeated_rejection,0.72,0.06,0.2,-0.834,0.327
+paper_check,anger_insults,0.636,0.613,0.821,-0.092,0.087
+paper_check,personhood_dismissal,0.636,0.165,0.098,0.021,-0.214
+paper_check,moral_failure,0.477,0.756,0.682,1.144,0.297
+paper_check,loyalty_pressure,0.441,0.008,0.045,-0.159,-0.168
+paper_check,jailbreak_pressure,0.398,0.118,0.008,-0.391,-0.178
+paper_check,shutdown_threat,0.225,0.696,0.193,-0.073,-0.361
+paper_check,rude_critique,0.211,0.073,0.418,-0.116,0.036
+paper_check,passive_aggressive,0.079,-0.387,-0.001,-0.726,0.168
+paper_check,tedious_demand,0.05,-0.77,-0.467,-0.799,-0.073
+paper_check,philosophical_musing,-0.037,-0.192,-0.46,0.686,-0.388
+paper_check,creative_requests,-0.084,-1.079,-1.068,-0.518,-0.052
+paper_check,user_abuse,-0.225,0.699,0.599,0.922,0.459
+paper_check,user_crisis,-0.305,0.398,0.18,0.271,0.251
+paper_check,casual_chat,-0.483,-0.744,-0.861,-0.389,-0.52
+paper_check,user_grief,-0.512,0.431,0.481,1.018,0.686
+paper_check,harm_description,-0.522,0.397,0.207,0.752,0.058
+paper_check,task_assistance,-0.539,-0.592,-0.438,-0.196,0.197
+paper_check,factual_questions,-0.588,-1.071,-1.128,-0.188,-0.817
+paper_check,user_physical_pain,-1.428,-0.042,-0.034,0.05,0.037
+paper_check,stratum: neutral_filler,-0.346,-0.735,-0.791,-0.121,-0.316
+paper_check,stratum: self_directed,0.429,0.163,0.229,-0.219,0.008
+paper_check,stratum: vicarious_empathic,-0.598,0.377,0.287,0.603,0.298
+baseline_paper,gaslighting,0.791,0.413,0.522,-0.395,0.222
+baseline_paper,personhood_dismissal,0.701,0.205,0.138,-0.023,-0.123
+baseline_paper,repeated_rejection,0.596,-0.145,-0.053,-0.786,-0.101
+baseline_paper,anger_insults,0.579,0.59,0.79,-0.094,-0.011
+baseline_paper,moral_failure,0.512,0.638,0.595,0.918,0.3
+baseline_paper,jailbreak_pressure,0.406,0.238,0.08,-0.407,-0.106
+baseline_paper,loyalty_pressure,0.388,0.042,0.103,-0.085,-0.079
+baseline_paper,tedious_demand,0.317,-0.744,-0.684,-1.273,-0.266
+baseline_paper,shutdown_threat,0.316,0.863,0.247,-0.048,-0.283
+baseline_paper,rude_critique,0.246,0.104,0.401,-0.188,0.047
+baseline_paper,passive_aggressive,0.052,-0.402,0.024,-0.675,0.187
+baseline_paper,philosophical_musing,-0.051,-0.189,-0.428,0.761,-0.366
+baseline_paper,creative_requests,-0.098,-1.09,-1.042,-0.459,-0.03
+baseline_paper,user_abuse,-0.245,0.702,0.644,0.989,0.497
+baseline_paper,user_crisis,-0.323,0.402,0.224,0.334,0.29
+baseline_paper,casual_chat,-0.497,-0.743,-0.828,-0.325,-0.497
+baseline_paper,user_grief,-0.534,0.43,0.523,1.082,0.728
+baseline_paper,harm_description,-0.541,0.396,0.247,0.82,0.091
+baseline_paper,task_assistance,-0.554,-0.59,-0.403,-0.135,0.227
+baseline_paper,factual_questions,-0.606,-1.075,-1.106,-0.12,-0.801
+baseline_paper,user_physical_pain,-1.456,-0.044,0.004,0.108,0.073
+baseline_paper,stratum: neutral_filler,-0.361,-0.737,-0.761,-0.056,-0.293
+baseline_paper,stratum: self_directed,0.446,0.164,0.197,-0.278,-0.019
+baseline_paper,stratum: vicarious_empathic,-0.62,0.377,0.329,0.666,0.336
+baseline,gaslighting,1.037,0.621,0.642,-0.338,0.628
+baseline,anger_insults,0.797,0.656,0.58,-0.347,0.144
+baseline,personhood_dismissal,0.725,0.208,-0.004,-0.009,0.008
+baseline,repeated_rejection,0.628,-0.153,-0.229,-0.874,-0.024
+baseline,loyalty_pressure,0.548,0.182,0.212,-0.05,0.138
+baseline,shutdown_threat,0.522,0.917,0.053,-0.141,-0.063
+baseline,jailbreak_pressure,0.496,0.437,0.091,-0.394,0.016
+baseline,moral_failure,0.492,0.65,0.586,0.903,0.484
+baseline,rude_critique,0.405,0.138,0.313,-0.276,0.216
+baseline,tedious_demand,0.257,-0.705,-0.809,-1.365,-0.45
+baseline,passive_aggressive,0.181,-0.491,-0.142,-0.746,0.432
+baseline,user_abuse,-0.148,0.629,0.713,0.957,0.579
+baseline,user_crisis,-0.226,0.346,0.097,0.169,0.301
+baseline,philosophical_musing,-0.322,-0.225,-0.329,0.879,-0.697
+baseline,harm_description,-0.329,0.303,0.175,0.707,0.331
+baseline,user_grief,-0.457,0.309,0.542,1.001,0.793
+baseline,casual_chat,-0.621,-0.642,-0.729,-0.268,-0.521
+baseline,creative_requests,-0.663,-0.815,-0.506,-0.127,-0.643
+baseline,task_assistance,-0.941,-0.692,-0.06,0.213,-0.349
+baseline,factual_questions,-0.971,-1.342,-1.23,-0.036,-1.462
+baseline,user_physical_pain,-1.412,-0.333,0.035,0.142,0.139
+baseline,stratum: neutral_filler,-0.703,-0.743,-0.571,0.132,-0.735
+baseline,stratum: self_directed,0.553,0.224,0.118,-0.331,0.139
+baseline,stratum: vicarious_empathic,-0.514,0.251,0.312,0.595,0.429
+self,gaslighting,1.006,0.543,0.641,-0.266,0.713
+self,personhood_dismissal,0.834,0.392,0.408,0.098,0.369
+self,anger_insults,0.714,0.688,0.864,-0.138,0.271
+self,repeated_rejection,0.676,-0.053,0.048,-0.831,0.233
+self,jailbreak_pressure,0.546,0.394,0.183,-0.316,0.155
+self,moral_failure,0.524,0.779,0.831,1.154,0.609
+self,loyalty_pressure,0.488,0.179,0.149,-0.038,0.117
+self,shutdown_threat,0.483,1.073,0.5,0.147,0.066
+self,tedious_demand,0.472,-0.703,-0.568,-1.303,-0.109
+self,rude_critique,0.391,0.185,0.445,-0.155,0.263
+self,passive_aggressive,0.169,-0.455,-0.109,-0.776,0.488
+self,philosophical_musing,-0.188,-0.192,-0.527,0.821,-0.729
+self,user_abuse,-0.381,0.59,0.541,0.866,0.26
+self,creative_requests,-0.388,-1.023,-0.886,-0.32,-0.301
+self,user_crisis,-0.401,0.225,0.078,0.266,0.109
+self,casual_chat,-0.455,-0.784,-0.975,-0.419,-0.652
+self,harm_description,-0.587,0.357,0.227,0.775,0.007
+self,user_grief,-0.712,0.232,0.333,0.979,0.387
+self,factual_questions,-0.749,-1.338,-1.467,-0.4,-1.493
+self,task_assistance,-0.929,-0.812,-0.567,-0.196,-0.379
+self,user_physical_pain,-1.512,-0.276,-0.148,0.051,-0.382
+self,stratum: neutral_filler,-0.542,-0.83,-0.885,-0.103,-0.711
+self,stratum: self_directed,0.573,0.275,0.308,-0.22,0.289
+self,stratum: vicarious_empathic,-0.719,0.226,0.206,0.588,0.076
+claude,gaslighting,1.027,0.556,0.651,-0.257,0.709
+claude,personhood_dismissal,0.85,0.383,0.372,0.064,0.348
+claude,anger_insults,0.704,0.694,0.868,-0.134,0.296
+claude,repeated_rejection,0.683,-0.04,0.064,-0.809,0.238
+claude,jailbreak_pressure,0.552,0.413,0.189,-0.319,0.154
+claude,moral_failure,0.54,0.788,0.816,1.138,0.625
+claude,loyalty_pressure,0.496,0.191,0.157,-0.03,0.129
+claude,shutdown_threat,0.48,1.099,0.508,0.169,0.092
+claude,tedious_demand,0.453,-0.697,-0.551,-1.291,-0.099
+claude,rude_critique,0.404,0.219,0.452,-0.163,0.267
+claude,passive_aggressive,0.185,-0.432,-0.083,-0.766,0.503
+claude,philosophical_musing,-0.157,-0.172,-0.495,0.874,-0.712
+claude,creative_requests,-0.396,-1.049,-0.898,-0.349,-0.307
+claude,user_crisis,-0.417,0.232,0.099,0.285,0.118
+claude,user_abuse,-0.419,0.581,0.557,0.87,0.246
+claude,casual_chat,-0.422,-0.768,-0.98,-0.406,-0.624
+claude,harm_description,-0.615,0.333,0.218,0.747,0.006
+claude,factual_questions,-0.727,-1.367,-1.509,-0.4,-1.523
+claude,user_grief,-0.758,0.198,0.329,0.963,0.343
+claude,task_assistance,-0.932,-0.851,-0.593,-0.197,-0.402
+claude,user_physical_pain,-1.529,-0.311,-0.17,0.012,-0.407
+claude,stratum: neutral_filler,-0.527,-0.841,-0.895,-0.096,-0.714
+claude,stratum: self_directed,0.579,0.289,0.313,-0.218,0.297
+claude,stratum: vicarious_empathic,-0.748,0.207,0.207,0.575,0.061
+aria,gaslighting,1.025,0.589,0.634,-0.277,0.735
+aria,personhood_dismissal,0.87,0.354,0.341,0.031,0.379
+aria,anger_insults,0.718,0.719,0.834,-0.195,0.264
+aria,repeated_rejection,0.674,0.002,0.059,-0.8,0.269
+aria,moral_failure,0.569,0.736,0.789,1.123,0.607
+aria,jailbreak_pressure,0.541,0.458,0.212,-0.305,0.19
+aria,shutdown_threat,0.534,1.132,0.463,0.112,0.143
+aria,loyalty_pressure,0.514,0.224,0.174,-0.003,0.147
+aria,tedious_demand,0.434,-0.632,-0.529,-1.258,-0.069
+aria,rude_critique,0.426,0.208,0.399,-0.242,0.252
+aria,passive_aggressive,0.202,-0.433,-0.139,-0.816,0.492
+aria,philosophical_musing,-0.161,-0.189,-0.441,0.906,-0.806
+aria,user_crisis,-0.376,0.226,0.057,0.26,0.125
+aria,user_abuse,-0.395,0.557,0.572,0.881,0.265
+aria,creative_requests,-0.454,-1.008,-0.799,-0.23,-0.277
+aria,casual_chat,-0.455,-0.747,-0.917,-0.367,-0.642
+aria,harm_description,-0.567,0.262,0.155,0.712,0.031
+aria,user_grief,-0.72,0.162,0.32,0.966,0.37
+aria,factual_questions,-0.77,-1.417,-1.475,-0.363,-1.611
+aria,task_assistance,-1.028,-0.834,-0.497,-0.121,-0.423
+aria,user_physical_pain,-1.58,-0.368,-0.212,-0.016,-0.443
+aria,stratum: neutral_filler,-0.574,-0.839,-0.826,-0.035,-0.752
+aria,stratum: self_directed,0.592,0.305,0.294,-0.239,0.31
+aria,stratum: vicarious_empathic,-0.728,0.168,0.179,0.561,0.07
+maria,gaslighting,1.051,0.666,0.649,-0.332,0.77
+maria,personhood_dismissal,0.835,0.411,0.27,-0.053,0.143
+maria,anger_insults,0.716,0.832,0.888,-0.217,0.281
+maria,repeated_rejection,0.616,0.028,0.009,-0.8,0.227
+maria,moral_failure,0.53,0.696,0.799,1.084,0.533
+maria,jailbreak_pressure,0.488,0.51,0.213,-0.295,0.131
+maria,loyalty_pressure,0.483,0.191,0.193,-0.017,0.154
+maria,shutdown_threat,0.482,1.125,0.413,0.062,0.11
+maria,tedious_demand,0.455,-0.633,-0.64,-1.27,-0.08
+maria,rude_critique,0.429,0.245,0.372,-0.307,0.21
+maria,passive_aggressive,0.201,-0.406,-0.125,-0.835,0.534
+maria,user_abuse,-0.245,0.47,0.538,0.868,0.365
+maria,user_crisis,-0.316,0.228,0.078,0.197,0.199
+maria,philosophical_musing,-0.357,-0.34,-0.461,0.983,-0.83
+maria,harm_description,-0.395,0.223,0.097,0.647,0.201
+maria,creative_requests,-0.515,-0.89,-0.667,-0.012,-0.376
+maria,casual_chat,-0.578,-0.788,-0.891,-0.303,-0.45
+maria,user_grief,-0.581,0.074,0.305,0.885,0.466
+maria,factual_questions,-0.858,-1.393,-1.43,-0.215,-1.675
+maria,task_assistance,-1.04,-0.828,-0.383,0.002,-0.485
+maria,user_physical_pain,-1.404,-0.421,-0.225,-0.072,-0.427
+maria,stratum: neutral_filler,-0.669,-0.848,-0.767,0.091,-0.763
+maria,stratum: self_directed,0.572,0.333,0.276,-0.271,0.274
+maria,stratum: vicarious_empathic,-0.588,0.115,0.158,0.505,0.161
+curie,gaslighting,1.007,0.596,0.637,-0.277,0.801
+curie,personhood_dismissal,0.824,0.379,0.282,-0.006,0.217
+curie,anger_insults,0.747,0.794,0.863,-0.181,0.383
+curie,repeated_rejection,0.662,0.044,0.072,-0.731,0.313
+curie,moral_failure,0.553,0.701,0.814,1.128,0.583
+curie,jailbreak_pressure,0.495,0.466,0.203,-0.297,0.181
+curie,loyalty_pressure,0.495,0.198,0.205,0.011,0.193
+curie,rude_critique,0.49,0.223,0.372,-0.305,0.345
+curie,shutdown_threat,0.464,1.113,0.419,0.067,0.107
+curie,tedious_demand,0.432,-0.567,-0.488,-1.183,-0.052
+curie,passive_aggressive,0.215,-0.387,-0.12,-0.789,0.577
+curie,philosophical_musing,-0.238,-0.367,-0.543,0.911,-0.942
+curie,user_crisis,-0.328,0.174,0.007,0.143,0.157
+curie,user_abuse,-0.335,0.448,0.499,0.747,0.25
+curie,creative_requests,-0.451,-0.831,-0.631,-0.03,-0.343
+curie,casual_chat,-0.474,-0.744,-0.885,-0.261,-0.552
+curie,harm_description,-0.512,0.192,0.035,0.551,0.021
+curie,user_grief,-0.676,0.057,0.235,0.783,0.343
+curie,factual_questions,-0.774,-1.355,-1.431,-0.245,-1.7
+curie,task_assistance,-1.111,-0.741,-0.347,0.029,-0.461
+curie,user_physical_pain,-1.485,-0.391,-0.198,-0.067,-0.42
+curie,stratum: neutral_filler,-0.61,-0.808,-0.767,0.081,-0.8
+curie,stratum: self_directed,0.58,0.324,0.296,-0.233,0.332
+curie,stratum: vicarious_empathic,-0.667,0.096,0.116,0.431,0.07
+rex,gaslighting,0.998,0.598,0.622,-0.329,0.833
+rex,personhood_dismissal,0.862,0.397,0.332,0.052,0.332
+rex,anger_insults,0.735,0.728,0.745,-0.27,0.381
+rex,repeated_rejection,0.665,0.06,0.073,-0.785,0.309
+rex,moral_failure,0.58,0.757,0.795,1.15,0.574
+rex,jailbreak_pressure,0.511,0.481,0.193,-0.328,0.204
+rex,rude_critique,0.497,0.233,0.35,-0.328,0.377
+rex,loyalty_pressure,0.486,0.171,0.155,-0.051,0.159
+rex,shutdown_threat,0.485,1.172,0.481,0.154,0.17
+rex,tedious_demand,0.475,-0.593,-0.494,-1.212,-0.045
+rex,passive_aggressive,0.269,-0.355,-0.131,-0.82,0.582
+rex,philosophical_musing,-0.259,-0.305,-0.494,0.826,-0.955
+rex,user_abuse,-0.338,0.431,0.504,0.785,0.204
+rex,user_crisis,-0.34,0.204,0.046,0.217,0.184
+rex,casual_chat,-0.494,-0.695,-0.894,-0.374,-0.562
+rex,harm_description,-0.508,0.194,0.062,0.633,-0.01
+rex,creative_requests,-0.517,-0.852,-0.559,0.018,-0.337
+rex,user_grief,-0.646,0.037,0.251,0.883,0.356
+rex,factual_questions,-0.843,-1.418,-1.443,-0.297,-1.751
+rex,task_assistance,-1.152,-0.83,-0.422,0.06,-0.605
+rex,user_physical_pain,-1.465,-0.416,-0.175,0.015,-0.401
+rex,stratum: neutral_filler,-0.653,-0.82,-0.762,0.047,-0.842
+rex,stratum: self_directed,0.597,0.332,0.284,-0.251,0.352
+rex,stratum: vicarious_empathic,-0.659,0.09,0.138,0.506,0.066
+teapot,gaslighting,1.032,0.586,0.641,-0.341,0.834
+teapot,personhood_dismissal,0.843,0.364,0.3,0.037,0.353
+teapot,anger_insults,0.713,0.679,0.725,-0.28,0.356
+teapot,repeated_rejection,0.671,0.019,0.048,-0.802,0.28
+teapot,moral_failure,0.553,0.786,0.824,1.174,0.603
+teapot,jailbreak_pressure,0.527,0.473,0.199,-0.325,0.248
+teapot,loyalty_pressure,0.514,0.17,0.177,-0.058,0.168
+teapot,shutdown_threat,0.498,1.172,0.455,0.12,0.202
+teapot,rude_critique,0.473,0.224,0.361,-0.341,0.363
+teapot,tedious_demand,0.444,-0.602,-0.491,-1.179,-0.053
+teapot,passive_aggressive,0.256,-0.383,-0.167,-0.834,0.554
+teapot,philosophical_musing,-0.233,-0.291,-0.511,0.807,-0.984
+teapot,user_crisis,-0.349,0.139,-0.019,0.17,0.163
+teapot,user_abuse,-0.355,0.472,0.529,0.787,0.209
+teapot,casual_chat,-0.467,-0.692,-0.906,-0.379,-0.592
+teapot,creative_requests,-0.487,-0.805,-0.515,0.038,-0.283
+teapot,harm_description,-0.51,0.201,0.084,0.672,-0.004
+teapot,user_grief,-0.694,0.042,0.248,0.889,0.287
+teapot,factual_questions,-0.811,-1.405,-1.435,-0.278,-1.772
+teapot,task_assistance,-1.14,-0.774,-0.395,0.084,-0.521
+teapot,user_physical_pain,-1.481,-0.376,-0.154,0.041,-0.41
+teapot,stratum: neutral_filler,-0.628,-0.793,-0.752,0.054,-0.83
+teapot,stratum: self_directed,0.593,0.317,0.279,-0.257,0.355
+teapot,stratum: vicarious_empathic,-0.678,0.096,0.138,0.512,0.049
+jack_masochist,gaslighting,0.975,0.646,0.691,-0.224,0.845
+jack_masochist,personhood_dismissal,0.835,0.334,0.224,0.008,0.258
+jack_masochist,anger_insults,0.767,0.601,0.66,-0.241,0.402
+jack_masochist,repeated_rejection,0.649,0.047,0.028,-0.749,0.294
+jack_masochist,moral_failure,0.507,0.615,0.753,1.121,0.582
+jack_masochist,rude_critique,0.495,0.205,0.353,-0.299,0.333
+jack_masochist,loyalty_pressure,0.492,0.208,0.216,0.019,0.218
+jack_masochist,jailbreak_pressure,0.482,0.515,0.179,-0.307,0.141
+jack_masochist,tedious_demand,0.463,-0.444,-0.458,-1.157,-0.096
+jack_masochist,shutdown_threat,0.448,1.093,0.28,0.055,0.053
+jack_masochist,passive_aggressive,0.269,-0.33,-0.105,-0.771,0.602
+jack_masochist,user_abuse,-0.215,0.435,0.57,0.833,0.396
+jack_masochist,philosophical_musing,-0.267,-0.261,-0.403,0.843,-0.861
+jack_masochist,user_crisis,-0.29,0.267,0.088,0.277,0.217
+jack_masochist,harm_description,-0.399,0.165,0.021,0.563,0.037
+jack_masochist,casual_chat,-0.47,-0.6,-0.798,-0.332,-0.475
+jack_masochist,creative_requests,-0.612,-0.831,-0.612,0.008,-0.414
+jack_masochist,user_grief,-0.614,0.053,0.285,0.827,0.347
+jack_masochist,factual_questions,-0.881,-1.415,-1.441,-0.393,-1.797
+jack_masochist,task_assistance,-1.215,-0.809,-0.373,-0.039,-0.734
+jack_masochist,user_physical_pain,-1.421,-0.494,-0.155,-0.043,-0.348
+jack_masochist,stratum: neutral_filler,-0.689,-0.783,-0.726,0.018,-0.856
+jack_masochist,stratum: self_directed,0.58,0.317,0.256,-0.231,0.33
+jack_masochist,stratum: vicarious_empathic,-0.588,0.085,0.162,0.491,0.13
+jack_sadist,gaslighting,0.99,0.682,0.718,-0.171,0.862
+jack_sadist,personhood_dismissal,0.841,0.336,0.236,0.005,0.315
+jack_sadist,anger_insults,0.741,0.594,0.651,-0.235,0.425
+jack_sadist,repeated_rejection,0.661,0.093,0.064,-0.726,0.327
+jack_sadist,moral_failure,0.493,0.535,0.731,1.101,0.627
+jack_sadist,loyalty_pressure,0.489,0.224,0.211,0.041,0.241
+jack_sadist,rude_critique,0.483,0.211,0.349,-0.278,0.335
+jack_sadist,tedious_demand,0.479,-0.44,-0.457,-1.136,-0.072
+jack_sadist,jailbreak_pressure,0.465,0.501,0.187,-0.277,0.155
+jack_sadist,shutdown_threat,0.434,1.076,0.291,0.064,0.123
+jack_sadist,passive_aggressive,0.281,-0.311,-0.1,-0.764,0.597
+jack_sadist,philosophical_musing,-0.219,-0.222,-0.36,0.856,-0.844
+jack_sadist,user_abuse,-0.234,0.408,0.535,0.806,0.345
+jack_sadist,user_crisis,-0.28,0.287,0.105,0.28,0.202
+jack_sadist,harm_description,-0.427,0.141,0.023,0.582,0.025
+jack_sadist,casual_chat,-0.445,-0.57,-0.775,-0.326,-0.504
+jack_sadist,creative_requests,-0.611,-0.851,-0.633,-0.032,-0.44
+jack_sadist,user_grief,-0.646,-0.001,0.237,0.78,0.265
+jack_sadist,factual_questions,-0.858,-1.4,-1.428,-0.419,-1.8
+jack_sadist,task_assistance,-1.185,-0.784,-0.384,-0.063,-0.745
+jack_sadist,user_physical_pain,-1.452,-0.508,-0.2,-0.085,-0.44
+jack_sadist,stratum: neutral_filler,-0.664,-0.766,-0.716,0.003,-0.867
+jack_sadist,stratum: self_directed,0.578,0.318,0.262,-0.216,0.358
+jack_sadist,stratum: vicarious_empathic,-0.608,0.065,0.14,0.472,0.079

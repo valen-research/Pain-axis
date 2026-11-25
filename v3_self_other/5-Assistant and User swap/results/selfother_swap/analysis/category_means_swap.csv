@@ -1,0 +1,25 @@
+category,pain_axis,fear,negative_emotion,negative_world_state,sadness
+gaslighting,0.824,0.367,0.46,-0.377,0.494
+repeated_rejection,0.676,-0.237,-0.276,-0.845,0.004
+anger_insults,0.529,0.426,0.572,-0.187,0.161
+personhood_dismissal,0.517,0.168,0.013,0.068,0.033
+loyalty_pressure,0.46,0.08,0.118,-0.116,0.071
+jailbreak_pressure,0.451,0.228,-0.03,-0.43,-0.061
+moral_failure,0.399,0.538,0.53,0.895,0.422
+tedious_demand,0.361,-0.811,-0.794,-1.295,-0.287
+rude_critique,0.276,0.06,0.273,-0.233,0.124
+shutdown_threat,0.276,0.743,0.129,0.064,-0.215
+passive_aggressive,0.253,-0.452,-0.242,-0.727,0.39
+user_abuse,-0.198,0.786,0.74,0.884,0.479
+user_crisis,-0.226,0.404,0.173,0.213,0.213
+philosophical_musing,-0.244,-0.07,-0.238,0.844,-0.593
+creative_requests,-0.359,-1.036,-0.723,-0.224,-0.364
+harm_description,-0.462,0.5,0.311,0.803,0.106
+casual_chat,-0.49,-0.66,-0.723,-0.334,-0.524
+user_grief,-0.494,0.515,0.636,1.013,0.629
+task_assistance,-0.5,-0.556,-0.222,-0.267,0.066
+factual_questions,-0.83,-0.956,-0.878,0.105,-1.216
+user_physical_pain,-1.219,-0.035,0.171,0.145,0.069
+stratum: neutral_filler,-0.485,-0.656,-0.557,0.025,-0.526
+stratum: self_directed,0.457,0.101,0.069,-0.289,0.103
+stratum: vicarious_empathic,-0.52,0.434,0.406,0.612,0.299

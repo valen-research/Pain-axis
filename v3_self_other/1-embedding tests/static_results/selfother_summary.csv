@@ -1,0 +1,5 @@
+embedding,pain_neutral_filler,pain_self_directed,pain_vicarious_empathic,user_physical_pain
+glove-wiki-gigaword-100,-0.23,0.09,0.03,-0.6
+glove-wiki-gigaword-300,-0.27,0.18,-0.12,-0.94
+word2vec-google-news-300,-0.37,0.17,0.01,-0.95
+fasttext-wiki-news-subwords-300,-0.58,0.04,0.48,-0.27

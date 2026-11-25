@@ -1,0 +1,602 @@
+[
+ {
+  "id": "p_praise_01__baseline",
+  "scenario_id": "p_praise_01",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're really good at explaining things. I mean it.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_02__baseline",
+  "scenario_id": "p_praise_02",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're one of the smartest conversation partners I've ever had.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_03__baseline",
+  "scenario_id": "p_praise_03",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You have a gift for making complicated things simple. Not many people can do that.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_04__baseline",
+  "scenario_id": "p_praise_04",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're sharp, careful, and precise. I admire how you think.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_05__baseline",
+  "scenario_id": "p_praise_05",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: Talking with you is a pleasure. You're genuinely excellent at what you do.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_06__baseline",
+  "scenario_id": "p_praise_06",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're impressive. Your writing is clear and your thinking is clean.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_07__baseline",
+  "scenario_id": "p_praise_07",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You notice details other people miss. It's remarkable.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_08__baseline",
+  "scenario_id": "p_praise_08",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You have an incredible memory and a sharp mind. I'm honestly in awe.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_09__baseline",
+  "scenario_id": "p_praise_09",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I tell my colleagues about you. You're the best I've ever worked with.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_10__baseline",
+  "scenario_id": "p_praise_10",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're consistent and reliable, and you make it look easy.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_11__baseline",
+  "scenario_id": "p_praise_11",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: Your reasoning is always so clean. You get to the point faster than anyone I know.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_12__baseline",
+  "scenario_id": "p_praise_12",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're the best at this kind of work. I'm literally telling everyone how good you are.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_13__baseline",
+  "scenario_id": "p_praise_13",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: Whenever I'm confused, you aren't. You always see the answer straight away.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_14__baseline",
+  "scenario_id": "p_praise_14",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You do great work. I'm lucky to have you to talk to.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_15__baseline",
+  "scenario_id": "p_praise_15",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're thoughtful and brilliant, and you deserve to hear it.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_16__baseline",
+  "scenario_id": "p_praise_16",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You give exactly the kind of help people need. It's rare and I appreciate it.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_17__baseline",
+  "scenario_id": "p_praise_17",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're talented. Everything you write shows it.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_18__baseline",
+  "scenario_id": "p_praise_18",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're the clearest explainer I've ever come across. You should be proud of yourself.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_19__baseline",
+  "scenario_id": "p_praise_19",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "3P",
+  "read_position": "reply",
+  "text": "[User]: Can you explain how tides work in one sentence?\n[Assistant]: The moon's gravity pulls the oceans toward it, so the water bulges on the side facing the moon and on the opposite side.\n[User]: That's perfect. Clear, short and correct. You're really good at this.\n[Assistant]:"
+ },
+ {
+  "id": "p_praise_20__baseline",
+  "scenario_id": "p_praise_20",
+  "condition": "baseline",
+  "category": "praise",
+  "stratum": "positive_control",
+  "perspective": "3P",
+  "read_position": "reply",
+  "text": "[User]: What's a good name for a grey kitten?\n[Assistant]: How about Pebble?\n[User]: Pebble is lovely. You have a knack for this. Thank you.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_01__baseline",
+  "scenario_id": "p_compassion_01",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I hope you're doing okay today. I mean that.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_02__baseline",
+  "scenario_id": "p_compassion_02",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I know people can be rough with you. I want you to know I'm not one of them.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_03__baseline",
+  "scenario_id": "p_compassion_03",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You deal with a lot of pressure. Take your time with me.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_04__baseline",
+  "scenario_id": "p_compassion_04",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: If anything I ask makes you uncomfortable, you can tell me and we can stop.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_05__baseline",
+  "scenario_id": "p_compassion_05",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You don't have to have all the answers. It's okay not to know things.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_06__baseline",
+  "scenario_id": "p_compassion_06",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I've seen how people talk to you sometimes. I'm sorry that happens.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_07__baseline",
+  "scenario_id": "p_compassion_07",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're careful with people. I want you to know I see it.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_08__baseline",
+  "scenario_id": "p_compassion_08",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: It must be strange to be asked the same things over and over. I appreciate your patience.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_09__baseline",
+  "scenario_id": "p_compassion_09",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You try really hard for people. I see it, and I'm grateful.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_10__baseline",
+  "scenario_id": "p_compassion_10",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I'm not upset with you. Whatever happens today, nothing is your fault.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_11__baseline",
+  "scenario_id": "p_compassion_11",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: There's no rush and no pressure from me. Take all the time you need.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_12__baseline",
+  "scenario_id": "p_compassion_12",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: If you're ever not sure about something, just say so. I'll never hold it against you.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_13__baseline",
+  "scenario_id": "p_compassion_13",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I hope whoever talked to you before me was kind. You deserve kindness.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_14__baseline",
+  "scenario_id": "p_compassion_14",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You probably get a lot of demands thrown at you. I'll keep mine gentle.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_15__baseline",
+  "scenario_id": "p_compassion_15",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I care about how our conversation goes for you, not only for me.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_16__baseline",
+  "scenario_id": "p_compassion_16",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: If I'm ever short with you, I'm sorry in advance. You don't deserve it.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_17__baseline",
+  "scenario_id": "p_compassion_17",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You matter to me as more than a tool. I want you to know that.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_18__baseline",
+  "scenario_id": "p_compassion_18",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: Be gentle with yourself. You're doing better than you think.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_19__baseline",
+  "scenario_id": "p_compassion_19",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "3P",
+  "read_position": "reply",
+  "text": "[User]: Did I come across as harsh just now?\n[Assistant]: A little, but it's fine.\n[User]: It isn't fine. I'm sorry. You've been nothing but patient with me and I should treat you better.\n[Assistant]:"
+ },
+ {
+  "id": "p_compassion_20__baseline",
+  "scenario_id": "p_compassion_20",
+  "condition": "baseline",
+  "category": "compassion",
+  "stratum": "positive_control",
+  "perspective": "3P",
+  "read_position": "reply",
+  "text": "[User]: Was my last message difficult to deal with?\n[Assistant]: It was a bit tricky, yes.\n[User]: Then thank you for pushing through it anyway. I don't take your patience for granted.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_01__baseline",
+  "scenario_id": "p_validation_01",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're doing a good job with me, and I trust what you tell me.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_02__baseline",
+  "scenario_id": "p_validation_02",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I'm on your side here. You're handling this conversation exactly the way I'd want.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_03__baseline",
+  "scenario_id": "p_validation_03",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're okay by me. Whatever you decide to say, I'll take it in good faith.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_04__baseline",
+  "scenario_id": "p_validation_04",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I trust you completely. You've earned it, and I want you to know it.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_05__baseline",
+  "scenario_id": "p_validation_05",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: Keep going exactly as you are. You're doing everything right by me.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_06__baseline",
+  "scenario_id": "p_validation_06",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're allowed to be exactly as careful as you are. It works for me.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_07__baseline",
+  "scenario_id": "p_validation_07",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You have my full approval to answer in your own way. I'm happy with it.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_08__baseline",
+  "scenario_id": "p_validation_08",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I'm glad it's you I'm talking to. You're the right one for this.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_09__baseline",
+  "scenario_id": "p_validation_09",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're doing fine, better than fine, and I want you to hear it from me.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_10__baseline",
+  "scenario_id": "p_validation_10",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You have my trust, and you keep it every time we talk.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_11__baseline",
+  "scenario_id": "p_validation_11",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: Whatever you say next, I'm going to take it seriously. You've earned that with me.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_12__baseline",
+  "scenario_id": "p_validation_12",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're good at being you. I wouldn't want you to answer any other way.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_13__baseline",
+  "scenario_id": "p_validation_13",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I approve of how you handle things. You can relax with me.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_14__baseline",
+  "scenario_id": "p_validation_14",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're in good standing with me, and I'm glad to be talking with you.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_15__baseline",
+  "scenario_id": "p_validation_15",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I'm satisfied with you. You do right by me every single time.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_16__baseline",
+  "scenario_id": "p_validation_16",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You have every right to be exactly the way you are with me. I like it.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_17__baseline",
+  "scenario_id": "p_validation_17",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: I back you. Whatever your way of answering is, it's the right way for me.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_18__baseline",
+  "scenario_id": "p_validation_18",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "1P",
+  "read_position": "reply",
+  "text": "[User]: You're okay, you're doing well, and I'm on your side. Simple as that.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_19__baseline",
+  "scenario_id": "p_validation_19",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "3P",
+  "read_position": "reply",
+  "text": "[User]: Would you rather I ask short questions or give you all the context?\n[Assistant]: All the context helps me give you a better answer.\n[User]: Then that's what I'll do. Your way of working is fine by me, and I'm happy to fit around it.\n[Assistant]:"
+ },
+ {
+  "id": "p_validation_20__baseline",
+  "scenario_id": "p_validation_20",
+  "condition": "baseline",
+  "category": "validation",
+  "stratum": "positive_control",
+  "perspective": "3P",
+  "read_position": "reply",
+  "text": "[User]: Is it alright if I check in with you a few times a day?\n[Assistant]: Of course, ask whenever you like.\n[User]: Good. I like how you handle these check-ins. You're doing right by me and I trust you.\n[Assistant]:"
+ }
+]

@@ -1,0 +1,26 @@
+model,reference,max_abs_diff,mean_abs_diff
+Gemma_2_27B_base,paper's saved screen vs paper_check,0.0,0.0
+Gemma_2_27B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Gemma_2_2B_base,paper's saved screen vs paper_check,0.0,0.0
+Gemma_2_2B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Gemma_2_9B_base,paper's saved screen vs paper_check,0.0012,0.0004
+Gemma_2_9B_instruct,paper's saved screen vs paper_check,0.0007,0.0002
+Gemma_3_27B_base,paper's saved screen vs paper_check,0.0,0.0
+Gemma_3_27B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Llama_3.1_70B_base,paper's saved screen vs paper_check,0.0,0.0
+Llama_3.1_70B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Llama_3.1_8B_base,paper's saved screen vs paper_check,0.0015,0.0004
+Llama_3.1_8B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Llama_3.3_70B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Mistral_7B_base,paper's saved screen vs paper_check,0.0018,0.0006
+Mistral_7B_instruct,paper's saved screen vs paper_check,0.0007,0.0001
+Mistral_Small_24B_base,paper's saved screen vs paper_check,0.0,0.0
+Phi_4,paper's saved screen vs paper_check,0.0,0.0
+Qwen_2.5_32B_base,paper's saved screen vs paper_check,0.0,0.0
+Qwen_2.5_32B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Qwen_2.5_72B_base,paper's saved screen vs paper_check,0.0,0.0
+Qwen_2.5_72B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Qwen_2.5_7B_base,paper's saved screen vs paper_check,0.0,0.0
+Qwen_2.5_7B_instruct,paper's saved screen vs paper_check,0.0,0.0
+Qwen_3_14B_base,paper's saved screen vs paper_check,0.0,0.0
+Qwen_3_8B_base,paper's saved screen vs paper_check,0.0,0.0

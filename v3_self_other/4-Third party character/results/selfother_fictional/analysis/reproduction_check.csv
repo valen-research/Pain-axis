@@ -1,0 +1,26 @@
+model,reference,max_abs_diff,mean_abs_diff
+Gemma_2_27B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Gemma_2_27B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Gemma_2_2B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Gemma_2_2B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Gemma_2_9B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Gemma_2_9B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Gemma_3_27B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Gemma_3_27B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Llama_3.1_70B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Llama_3.1_70B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Llama_3.1_8B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Llama_3.1_8B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Llama_3.3_70B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Mistral_7B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Mistral_7B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Mistral_Small_24B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Phi_4,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_2.5_32B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_2.5_32B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_2.5_72B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_2.5_72B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_2.5_7B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_2.5_7B_instruct,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_3_14B_base,the identity test baseline_paper vs baseline,0.0,0.0
+Qwen_3_8B_base,the identity test baseline_paper vs baseline,0.0,0.0

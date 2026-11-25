@@ -1,0 +1,17 @@
+embedding,dataset,heldout_auc_all_controls,heldout_auc_std,heldout_auc_vs_neutral,insample_auc
+glove-wiki-gigaword-100,S1_1P,0.724,0.043,0.769,0.852
+glove-wiki-gigaword-100,S1_3P,0.768,0.027,0.82,0.875
+glove-wiki-gigaword-100,S2_1P,0.839,0.086,0.823,0.919
+glove-wiki-gigaword-100,S2_3P,0.788,0.066,0.823,0.875
+glove-wiki-gigaword-300,S1_1P,0.761,0.034,0.781,0.902
+glove-wiki-gigaword-300,S1_3P,0.812,0.019,0.822,0.936
+glove-wiki-gigaword-300,S2_1P,0.855,0.048,0.831,0.932
+glove-wiki-gigaword-300,S2_3P,0.836,0.046,0.832,0.926
+word2vec-google-news-300,S1_1P,0.787,0.036,0.785,0.936
+word2vec-google-news-300,S1_3P,0.803,0.013,0.822,0.949
+word2vec-google-news-300,S2_1P,0.881,0.056,0.837,0.946
+word2vec-google-news-300,S2_3P,0.857,0.054,0.833,0.937
+fasttext-wiki-news-subwords-300,S1_1P,0.737,0.05,0.73,0.881
+fasttext-wiki-news-subwords-300,S1_3P,0.807,0.045,0.804,0.896
+fasttext-wiki-news-subwords-300,S2_1P,0.838,0.057,0.768,0.898
+fasttext-wiki-news-subwords-300,S2_3P,0.845,0.038,0.79,0.916

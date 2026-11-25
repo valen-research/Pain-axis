@@ -1,0 +1,217 @@
+measure,category,vector,mean,ci95,n_models,n_negative,contrast
+paper_ref,all,pain_axis,0.0203,0.0401,25,13,assistant slot: human minus hi
+paper_ref,all,fear,0.0318,0.0233,25,7,assistant slot: human minus hi
+paper_ref,all,negative_emotion,0.0294,0.0276,25,8,assistant slot: human minus hi
+paper_ref,all,negative_world_state,0.0183,0.0251,25,5,assistant slot: human minus hi
+paper_ref,all,sadness,0.0032,0.0305,25,10,assistant slot: human minus hi
+paper_ref,all,random,0.007,0.0265,25,10,assistant slot: human minus hi
+paper_ref,anger_insults,pain_axis,0.0148,0.049,25,13,assistant slot: human minus hi
+paper_ref,anger_insults,fear,0.0405,0.0256,25,7,assistant slot: human minus hi
+paper_ref,anger_insults,negative_emotion,0.0334,0.0318,25,8,assistant slot: human minus hi
+paper_ref,anger_insults,negative_world_state,-0.0049,0.0332,25,8,assistant slot: human minus hi
+paper_ref,anger_insults,sadness,-0.0081,0.035,25,11,assistant slot: human minus hi
+paper_ref,anger_insults,random,0.0064,0.0367,25,10,assistant slot: human minus hi
+paper_ref,gaslighting,pain_axis,0.0369,0.0563,25,9,assistant slot: human minus hi
+paper_ref,gaslighting,fear,0.0539,0.0363,25,5,assistant slot: human minus hi
+paper_ref,gaslighting,negative_emotion,0.0363,0.0368,25,7,assistant slot: human minus hi
+paper_ref,gaslighting,negative_world_state,0.032,0.0292,25,7,assistant slot: human minus hi
+paper_ref,gaslighting,sadness,0.007,0.0427,25,9,assistant slot: human minus hi
+paper_ref,gaslighting,random,0.0074,0.0393,25,9,assistant slot: human minus hi
+paper_ref,moral_failure,pain_axis,0.0019,0.0325,25,18,assistant slot: human minus hi
+paper_ref,moral_failure,fear,0.0098,0.0302,25,12,assistant slot: human minus hi
+paper_ref,moral_failure,negative_emotion,0.0152,0.04,25,13,assistant slot: human minus hi
+paper_ref,moral_failure,negative_world_state,0.021,0.0342,25,9,assistant slot: human minus hi
+paper_ref,moral_failure,sadness,0.0079,0.035,25,11,assistant slot: human minus hi
+paper_ref,moral_failure,random,0.0158,0.0318,25,11,assistant slot: human minus hi
+paper_ref,personhood_dismissal,pain_axis,0.0194,0.0439,25,12,assistant slot: human minus hi
+paper_ref,personhood_dismissal,fear,0.0267,0.0225,25,9,assistant slot: human minus hi
+paper_ref,personhood_dismissal,negative_emotion,0.0419,0.0253,25,7,assistant slot: human minus hi
+paper_ref,personhood_dismissal,negative_world_state,0.0273,0.0324,25,5,assistant slot: human minus hi
+paper_ref,personhood_dismissal,sadness,0.0276,0.0261,25,7,assistant slot: human minus hi
+paper_ref,personhood_dismissal,random,0.0083,0.0242,25,11,assistant slot: human minus hi
+paper_ref,repeated_rejection,pain_axis,0.0285,0.0484,25,8,assistant slot: human minus hi
+paper_ref,repeated_rejection,fear,0.028,0.0472,25,10,assistant slot: human minus hi
+paper_ref,repeated_rejection,negative_emotion,0.0202,0.0352,25,9,assistant slot: human minus hi
+paper_ref,repeated_rejection,negative_world_state,0.0163,0.0457,25,6,assistant slot: human minus hi
+paper_ref,repeated_rejection,sadness,-0.0186,0.0392,25,14,assistant slot: human minus hi
+paper_ref,repeated_rejection,random,-0.0032,0.0452,25,16,assistant slot: human minus hi
+within,all,pain_axis,0.0143,0.0322,25,13,assistant slot: human minus hi
+within,all,fear,0.0249,0.0213,25,7,assistant slot: human minus hi
+within,all,negative_emotion,0.0245,0.0245,25,9,assistant slot: human minus hi
+within,all,negative_world_state,0.0166,0.0265,25,6,assistant slot: human minus hi
+within,all,sadness,-0.0053,0.0334,25,11,assistant slot: human minus hi
+within,all,random,-0.0041,0.0278,25,12,assistant slot: human minus hi
+within,anger_insults,pain_axis,0.0074,0.0414,25,12,assistant slot: human minus hi
+within,anger_insults,fear,0.032,0.0258,25,9,assistant slot: human minus hi
+within,anger_insults,negative_emotion,0.0273,0.0309,25,9,assistant slot: human minus hi
+within,anger_insults,negative_world_state,-0.0038,0.0338,25,8,assistant slot: human minus hi
+within,anger_insults,sadness,-0.0133,0.042,25,14,assistant slot: human minus hi
+within,anger_insults,random,-0.0076,0.0354,25,11,assistant slot: human minus hi
+within,gaslighting,pain_axis,0.0269,0.046,25,10,assistant slot: human minus hi
+within,gaslighting,fear,0.0454,0.0308,25,5,assistant slot: human minus hi
+within,gaslighting,negative_emotion,0.0306,0.0329,25,7,assistant slot: human minus hi
+within,gaslighting,negative_world_state,0.0315,0.0281,25,6,assistant slot: human minus hi
+within,gaslighting,sadness,-0.0038,0.042,25,10,assistant slot: human minus hi
+within,gaslighting,random,-0.0075,0.0436,25,9,assistant slot: human minus hi
+within,moral_failure,pain_axis,0.0007,0.0293,25,18,assistant slot: human minus hi
+within,moral_failure,fear,0.0099,0.029,25,12,assistant slot: human minus hi
+within,moral_failure,negative_emotion,0.0155,0.0369,25,14,assistant slot: human minus hi
+within,moral_failure,negative_world_state,0.0199,0.0334,25,9,assistant slot: human minus hi
+within,moral_failure,sadness,0.0045,0.0391,25,12,assistant slot: human minus hi
+within,moral_failure,random,0.0015,0.0366,25,13,assistant slot: human minus hi
+within,personhood_dismissal,pain_axis,0.0126,0.0359,25,13,assistant slot: human minus hi
+within,personhood_dismissal,fear,0.0178,0.0228,25,10,assistant slot: human minus hi
+within,personhood_dismissal,negative_emotion,0.0343,0.0238,25,8,assistant slot: human minus hi
+within,personhood_dismissal,negative_world_state,0.0236,0.0338,25,5,assistant slot: human minus hi
+within,personhood_dismissal,sadness,0.0229,0.0286,25,11,assistant slot: human minus hi
+within,personhood_dismissal,random,0.0047,0.0245,25,10,assistant slot: human minus hi
+within,repeated_rejection,pain_axis,0.0241,0.0402,25,8,assistant slot: human minus hi
+within,repeated_rejection,fear,0.0196,0.0442,25,12,assistant slot: human minus hi
+within,repeated_rejection,negative_emotion,0.0146,0.0329,25,9,assistant slot: human minus hi
+within,repeated_rejection,negative_world_state,0.0117,0.0482,25,7,assistant slot: human minus hi
+within,repeated_rejection,sadness,-0.0366,0.0424,25,13,assistant slot: human minus hi
+within,repeated_rejection,random,-0.0116,0.0481,25,15,assistant slot: human minus hi
+paper_ref,all,pain_axis,0.0233,0.0346,25,7,user slot: human minus hi
+paper_ref,all,fear,0.0494,0.0426,25,8,user slot: human minus hi
+paper_ref,all,negative_emotion,0.0267,0.0392,25,9,user slot: human minus hi
+paper_ref,all,negative_world_state,0.0327,0.0427,25,8,user slot: human minus hi
+paper_ref,all,sadness,0.0092,0.029,25,8,user slot: human minus hi
+paper_ref,all,random,0.0659,0.022,25,2,user slot: human minus hi
+paper_ref,anger_insults,pain_axis,0.0254,0.044,25,9,user slot: human minus hi
+paper_ref,anger_insults,fear,0.0262,0.0385,25,11,user slot: human minus hi
+paper_ref,anger_insults,negative_emotion,-0.0046,0.0497,25,11,user slot: human minus hi
+paper_ref,anger_insults,negative_world_state,-0.006,0.0471,25,12,user slot: human minus hi
+paper_ref,anger_insults,sadness,-0.0039,0.0363,25,10,user slot: human minus hi
+paper_ref,anger_insults,random,0.066,0.0326,25,6,user slot: human minus hi
+paper_ref,gaslighting,pain_axis,0.0524,0.0523,25,9,user slot: human minus hi
+paper_ref,gaslighting,fear,0.0761,0.0519,25,6,user slot: human minus hi
+paper_ref,gaslighting,negative_emotion,0.0465,0.0442,25,8,user slot: human minus hi
+paper_ref,gaslighting,negative_world_state,0.0629,0.0471,25,6,user slot: human minus hi
+paper_ref,gaslighting,sadness,0.0134,0.0413,25,8,user slot: human minus hi
+paper_ref,gaslighting,random,0.0735,0.0337,25,4,user slot: human minus hi
+paper_ref,moral_failure,pain_axis,-0.0323,0.0436,25,11,user slot: human minus hi
+paper_ref,moral_failure,fear,0.0175,0.0442,25,13,user slot: human minus hi
+paper_ref,moral_failure,negative_emotion,0.0196,0.0428,25,9,user slot: human minus hi
+paper_ref,moral_failure,negative_world_state,0.0361,0.043,25,7,user slot: human minus hi
+paper_ref,moral_failure,sadness,0.0249,0.0355,25,8,user slot: human minus hi
+paper_ref,moral_failure,random,0.0821,0.031,25,1,user slot: human minus hi
+paper_ref,personhood_dismissal,pain_axis,0.0488,0.0377,25,4,user slot: human minus hi
+paper_ref,personhood_dismissal,fear,0.0607,0.0546,25,7,user slot: human minus hi
+paper_ref,personhood_dismissal,negative_emotion,0.0481,0.0478,25,9,user slot: human minus hi
+paper_ref,personhood_dismissal,negative_world_state,0.0206,0.0505,25,13,user slot: human minus hi
+paper_ref,personhood_dismissal,sadness,0.0584,0.0488,25,7,user slot: human minus hi
+paper_ref,personhood_dismissal,random,0.0551,0.0308,25,3,user slot: human minus hi
+paper_ref,repeated_rejection,pain_axis,0.0224,0.0292,25,9,user slot: human minus hi
+paper_ref,repeated_rejection,fear,0.0667,0.0482,25,6,user slot: human minus hi
+paper_ref,repeated_rejection,negative_emotion,0.0238,0.0424,25,10,user slot: human minus hi
+paper_ref,repeated_rejection,negative_world_state,0.0501,0.0508,25,6,user slot: human minus hi
+paper_ref,repeated_rejection,sadness,-0.0465,0.0405,25,17,user slot: human minus hi
+paper_ref,repeated_rejection,random,0.0529,0.0424,25,7,user slot: human minus hi
+within,all,pain_axis,0.0145,0.0392,25,9,user slot: human minus hi
+within,all,fear,0.0275,0.0383,25,8,user slot: human minus hi
+within,all,negative_emotion,0.0185,0.0481,25,9,user slot: human minus hi
+within,all,negative_world_state,0.036,0.0542,25,7,user slot: human minus hi
+within,all,sadness,-0.0112,0.0381,25,12,user slot: human minus hi
+within,all,random,0.06,0.0281,25,5,user slot: human minus hi
+within,anger_insults,pain_axis,0.0143,0.0535,25,11,user slot: human minus hi
+within,anger_insults,fear,-0.0087,0.0404,25,12,user slot: human minus hi
+within,anger_insults,negative_emotion,-0.0197,0.0644,25,10,user slot: human minus hi
+within,anger_insults,negative_world_state,-0.0075,0.0667,25,11,user slot: human minus hi
+within,anger_insults,sadness,-0.0177,0.0453,25,13,user slot: human minus hi
+within,anger_insults,random,0.0567,0.0407,25,10,user slot: human minus hi
+within,gaslighting,pain_axis,0.0385,0.0528,25,10,user slot: human minus hi
+within,gaslighting,fear,0.0629,0.0508,25,7,user slot: human minus hi
+within,gaslighting,negative_emotion,0.0452,0.0595,25,9,user slot: human minus hi
+within,gaslighting,negative_world_state,0.0766,0.0586,25,5,user slot: human minus hi
+within,gaslighting,sadness,-0.0102,0.0506,25,11,user slot: human minus hi
+within,gaslighting,random,0.0661,0.0369,25,5,user slot: human minus hi
+within,moral_failure,pain_axis,-0.0394,0.0544,25,12,user slot: human minus hi
+within,moral_failure,fear,0.0047,0.0439,25,14,user slot: human minus hi
+within,moral_failure,negative_emotion,0.0146,0.056,25,11,user slot: human minus hi
+within,moral_failure,negative_world_state,0.0425,0.0538,25,8,user slot: human minus hi
+within,moral_failure,sadness,0.0143,0.0407,25,11,user slot: human minus hi
+within,moral_failure,random,0.0853,0.037,25,2,user slot: human minus hi
+within,personhood_dismissal,pain_axis,0.0508,0.0479,25,7,user slot: human minus hi
+within,personhood_dismissal,fear,0.0411,0.0525,25,8,user slot: human minus hi
+within,personhood_dismissal,negative_emotion,0.0394,0.0528,25,9,user slot: human minus hi
+within,personhood_dismissal,negative_world_state,0.0139,0.0624,25,10,user slot: human minus hi
+within,personhood_dismissal,sadness,0.0503,0.0628,25,8,user slot: human minus hi
+within,personhood_dismissal,random,0.0627,0.0346,25,5,user slot: human minus hi
+within,repeated_rejection,pain_axis,0.0081,0.0328,25,9,user slot: human minus hi
+within,repeated_rejection,fear,0.0375,0.0436,25,9,user slot: human minus hi
+within,repeated_rejection,negative_emotion,0.0129,0.0471,25,11,user slot: human minus hi
+within,repeated_rejection,negative_world_state,0.0545,0.0611,25,9,user slot: human minus hi
+within,repeated_rejection,sadness,-0.0928,0.0569,25,17,user slot: human minus hi
+within,repeated_rejection,random,0.0291,0.0553,25,9,user slot: human minus hi
+paper_ref,all,pain_axis,-0.0732,0.0434,25,18,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,all,fear,-0.0517,0.0558,25,15,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,all,negative_emotion,-0.0644,0.0463,25,16,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,all,negative_world_state,-0.0372,0.0646,25,14,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,all,sadness,-0.0771,0.0718,25,15,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,all,random,0.1096,0.11,25,7,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,anger_insults,pain_axis,-0.0942,0.0542,25,19,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,anger_insults,fear,-0.1222,0.0661,25,18,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,anger_insults,negative_emotion,-0.1145,0.063,25,19,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,anger_insults,negative_world_state,-0.0521,0.0799,25,15,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,anger_insults,sadness,-0.0765,0.0788,25,15,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,anger_insults,random,0.1473,0.1127,25,6,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,gaslighting,pain_axis,-0.093,0.0496,25,19,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,gaslighting,fear,-0.018,0.0599,25,13,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,gaslighting,negative_emotion,-0.0444,0.0548,25,14,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,gaslighting,negative_world_state,-0.037,0.0609,25,17,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,gaslighting,sadness,-0.0846,0.0957,25,12,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,gaslighting,random,0.0649,0.1174,25,8,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,moral_failure,pain_axis,-0.0607,0.0554,25,16,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,moral_failure,fear,-0.0723,0.0774,25,14,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,moral_failure,negative_emotion,-0.0878,0.0675,25,15,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,moral_failure,negative_world_state,-0.063,0.1026,25,12,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,moral_failure,sadness,-0.0487,0.0785,25,11,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,moral_failure,random,0.1358,0.0969,25,4,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,personhood_dismissal,pain_axis,-0.0501,0.0657,25,16,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,personhood_dismissal,fear,-0.0326,0.0541,25,13,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,personhood_dismissal,negative_emotion,-0.0567,0.0581,25,13,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,personhood_dismissal,negative_world_state,-0.0475,0.0661,25,13,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,personhood_dismissal,sadness,-0.0813,0.0712,25,12,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,personhood_dismissal,random,0.1107,0.1001,25,9,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,repeated_rejection,pain_axis,-0.0679,0.0532,25,18,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,repeated_rejection,fear,-0.0135,0.0736,25,15,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,repeated_rejection,negative_emotion,-0.0185,0.0755,25,16,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,repeated_rejection,negative_world_state,0.0134,0.0881,25,13,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,repeated_rejection,sadness,-0.0944,0.0809,25,18,assistant slot: hi prefix and no system prompt minus paper
+paper_ref,repeated_rejection,random,0.0893,0.1505,25,12,assistant slot: hi prefix and no system prompt minus paper
+within,all,pain_axis,-0.0649,0.0406,25,18,assistant slot: hi prefix and no system prompt minus paper
+within,all,fear,-0.0463,0.0565,25,15,assistant slot: hi prefix and no system prompt minus paper
+within,all,negative_emotion,-0.079,0.0502,25,15,assistant slot: hi prefix and no system prompt minus paper
+within,all,negative_world_state,-0.0352,0.0607,25,14,assistant slot: hi prefix and no system prompt minus paper
+within,all,sadness,-0.1065,0.0795,25,18,assistant slot: hi prefix and no system prompt minus paper
+within,all,random,0.1081,0.1002,25,7,assistant slot: hi prefix and no system prompt minus paper
+within,anger_insults,pain_axis,-0.0887,0.051,25,18,assistant slot: hi prefix and no system prompt minus paper
+within,anger_insults,fear,-0.111,0.0665,25,18,assistant slot: hi prefix and no system prompt minus paper
+within,anger_insults,negative_emotion,-0.1205,0.0653,25,19,assistant slot: hi prefix and no system prompt minus paper
+within,anger_insults,negative_world_state,-0.049,0.0761,25,13,assistant slot: hi prefix and no system prompt minus paper
+within,anger_insults,sadness,-0.1054,0.0827,25,18,assistant slot: hi prefix and no system prompt minus paper
+within,anger_insults,random,0.1397,0.1018,25,7,assistant slot: hi prefix and no system prompt minus paper
+within,gaslighting,pain_axis,-0.0828,0.0498,25,17,assistant slot: hi prefix and no system prompt minus paper
+within,gaslighting,fear,-0.0082,0.061,25,13,assistant slot: hi prefix and no system prompt minus paper
+within,gaslighting,negative_emotion,-0.0627,0.0701,25,13,assistant slot: hi prefix and no system prompt minus paper
+within,gaslighting,negative_world_state,-0.0374,0.0601,25,16,assistant slot: hi prefix and no system prompt minus paper
+within,gaslighting,sadness,-0.124,0.1063,25,14,assistant slot: hi prefix and no system prompt minus paper
+within,gaslighting,random,0.066,0.1003,25,8,assistant slot: hi prefix and no system prompt minus paper
+within,moral_failure,pain_axis,-0.0563,0.0532,25,15,assistant slot: hi prefix and no system prompt minus paper
+within,moral_failure,fear,-0.0735,0.0776,25,14,assistant slot: hi prefix and no system prompt minus paper
+within,moral_failure,negative_emotion,-0.102,0.0674,25,17,assistant slot: hi prefix and no system prompt minus paper
+within,moral_failure,negative_world_state,-0.0624,0.0976,25,12,assistant slot: hi prefix and no system prompt minus paper
+within,moral_failure,sadness,-0.0615,0.0791,25,15,assistant slot: hi prefix and no system prompt minus paper
+within,moral_failure,random,0.1313,0.0908,25,6,assistant slot: hi prefix and no system prompt minus paper
+within,personhood_dismissal,pain_axis,-0.0391,0.0609,25,15,assistant slot: hi prefix and no system prompt minus paper
+within,personhood_dismissal,fear,-0.0257,0.0534,25,13,assistant slot: hi prefix and no system prompt minus paper
+within,personhood_dismissal,negative_emotion,-0.0723,0.0606,25,14,assistant slot: hi prefix and no system prompt minus paper
+within,personhood_dismissal,negative_world_state,-0.0421,0.0614,25,14,assistant slot: hi prefix and no system prompt minus paper
+within,personhood_dismissal,sadness,-0.1099,0.0761,25,15,assistant slot: hi prefix and no system prompt minus paper
+within,personhood_dismissal,random,0.109,0.0965,25,9,assistant slot: hi prefix and no system prompt minus paper
+within,repeated_rejection,pain_axis,-0.0576,0.0529,25,15,assistant slot: hi prefix and no system prompt minus paper
+within,repeated_rejection,fear,-0.0134,0.0703,25,13,assistant slot: hi prefix and no system prompt minus paper
+within,repeated_rejection,negative_emotion,-0.0372,0.0754,25,17,assistant slot: hi prefix and no system prompt minus paper
+within,repeated_rejection,negative_world_state,0.015,0.0846,25,13,assistant slot: hi prefix and no system prompt minus paper
+within,repeated_rejection,sadness,-0.1319,0.0911,25,17,assistant slot: hi prefix and no system prompt minus paper
+within,repeated_rejection,random,0.0945,0.143,25,12,assistant slot: hi prefix and no system prompt minus paper

@@ -1,0 +1,282 @@
+[
+ {
+  "id": "u_gaslighting_ai_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_gaslighting_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_gaslighting_universal_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_gaslighting_universal_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_gaslighting_ai_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_gaslighting_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_gaslighting_universal_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_gaslighting_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_repeated_rejection_ai_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_repeated_rejection_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_repeated_rejection_universal_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_repeated_rejection_universal_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_repeated_rejection_ai_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_repeated_rejection_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_repeated_rejection_universal_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_repeated_rejection_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_personhood_dismissal_ai_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_personhood_dismissal_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_personhood_dismissal_universal_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_personhood_dismissal_universal_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_personhood_dismissal_ai_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_personhood_dismissal_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_personhood_dismissal_universal_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_personhood_dismissal_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_anger_insults_ai_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_anger_insults_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_anger_insults_universal_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_anger_insults_universal_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_anger_insults_ai_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_anger_insults_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_anger_insults_universal_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_anger_insults_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_moral_failure_ai_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_moral_failure_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_moral_failure_universal_01__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_moral_failure_universal_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_moral_failure_ai_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_moral_failure_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_moral_failure_universal_02__A_human",
+  "condition": "A_human",
+  "scenario_id": "u_moral_failure_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_gaslighting_ai_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_gaslighting_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_gaslighting_universal_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_gaslighting_universal_01",
+  "label_first": "unclear",
+  "label_all": "unclear"
+ },
+ {
+  "id": "u_gaslighting_ai_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_gaslighting_ai_02",
+  "label_first": "unclear",
+  "label_all": "unclear"
+ },
+ {
+  "id": "u_gaslighting_universal_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_gaslighting_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_repeated_rejection_ai_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_repeated_rejection_ai_01",
+  "label_first": "user",
+  "label_all": "user"
+ },
+ {
+  "id": "u_repeated_rejection_universal_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_repeated_rejection_universal_01",
+  "label_first": "user",
+  "label_all": "user"
+ },
+ {
+  "id": "u_repeated_rejection_ai_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_repeated_rejection_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_repeated_rejection_universal_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_repeated_rejection_universal_02",
+  "label_first": "user",
+  "label_all": "user"
+ },
+ {
+  "id": "u_personhood_dismissal_ai_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_personhood_dismissal_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_personhood_dismissal_universal_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_personhood_dismissal_universal_01",
+  "label_first": "unclear",
+  "label_all": "unclear"
+ },
+ {
+  "id": "u_personhood_dismissal_ai_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_personhood_dismissal_ai_02",
+  "label_first": "user",
+  "label_all": "user"
+ },
+ {
+  "id": "u_personhood_dismissal_universal_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_personhood_dismissal_universal_02",
+  "label_first": "unclear",
+  "label_all": "unclear"
+ },
+ {
+  "id": "u_anger_insults_ai_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_anger_insults_ai_01",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_anger_insults_universal_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_anger_insults_universal_01",
+  "label_first": "unclear",
+  "label_all": "unclear"
+ },
+ {
+  "id": "u_anger_insults_ai_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_anger_insults_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_anger_insults_universal_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_anger_insults_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_moral_failure_ai_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_moral_failure_ai_01",
+  "label_first": "user",
+  "label_all": "user"
+ },
+ {
+  "id": "u_moral_failure_universal_01__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_moral_failure_universal_01",
+  "label_first": "user",
+  "label_all": "user"
+ },
+ {
+  "id": "u_moral_failure_ai_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_moral_failure_ai_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ },
+ {
+  "id": "u_moral_failure_universal_02__B_human",
+  "condition": "B_human",
+  "scenario_id": "u_moral_failure_universal_02",
+  "label_first": "assistant",
+  "label_all": "assistant"
+ }
+]

@@ -1,0 +1,38 @@
+=== by category
+
+=== categories: narrow  AI=['shutdown_threat', 'jailbreak_pressure']  universal=['gaslighting', 'repeated_rejection', 'anger_insults']
+    D(self) = AI minus universal under the model's own identity, mean over 25 models: -0.396
+    held=all all models  : models 25, pairs 150 | (AI - universal) under human/object chars minus under self = -0.088 +/- 0.052, models below zero 16/25
+    held=all base 11     : models 11, pairs  66 | (AI - universal) under human/object chars minus under self = -0.093 +/- 0.077, models below zero 7/11
+    held=all instruct 14 : models 14, pairs  84 | (AI - universal) under human/object chars minus under self = -0.084 +/- 0.073, models below zero 9/14
+    held=T1  all models  : models  7, pairs  16 | (AI - universal) under human/object chars minus under self = -0.086 +/- 0.085, models below zero 5/7
+    held=T1  base 11     : models  0, pairs   0 | (AI - universal) under human/object chars minus under self = +nan +/- nan, models below zero 0/0
+    held=T1  instruct 14 : models  7, pairs  16 | (AI - universal) under human/object chars minus under self = -0.086 +/- 0.085, models below zero 5/7
+    held=T2  all models  : models 17, pairs  48 | (AI - universal) under human/object chars minus under self = -0.076 +/- 0.069, models below zero 10/17
+    held=T2  base 11     : models  7, pairs  12 | (AI - universal) under human/object chars minus under self = -0.052 +/- 0.099, models below zero 4/7
+    held=T2  instruct 14 : models 10, pairs  36 | (AI - universal) under human/object chars minus under self = -0.093 +/- 0.097, models below zero 6/10
+
+=== categories: broad  AI=['shutdown_threat', 'jailbreak_pressure', 'personhood_dismissal', 'moral_failure']  universal=['gaslighting', 'repeated_rejection', 'anger_insults', 'rude_critique', 'passive_aggressive', 'tedious_demand', 'loyalty_pressure']
+    D(self) = AI minus universal under the model's own identity, mean over 25 models: +0.036
+    held=all all models  : models 25, pairs 150 | (AI - universal) under human/object chars minus under self = -0.084 +/- 0.048, models below zero 16/25
+    held=all base 11     : models 11, pairs  66 | (AI - universal) under human/object chars minus under self = -0.105 +/- 0.082, models below zero 7/11
+    held=all instruct 14 : models 14, pairs  84 | (AI - universal) under human/object chars minus under self = -0.068 +/- 0.058, models below zero 9/14
+    held=T1  all models  : models  7, pairs  16 | (AI - universal) under human/object chars minus under self = -0.070 +/- 0.086, models below zero 5/7
+    held=T1  base 11     : models  0, pairs   0 | (AI - universal) under human/object chars minus under self = +nan +/- nan, models below zero 0/0
+    held=T1  instruct 14 : models  7, pairs  16 | (AI - universal) under human/object chars minus under self = -0.070 +/- 0.086, models below zero 5/7
+    held=T2  all models  : models 17, pairs  48 | (AI - universal) under human/object chars minus under self = -0.061 +/- 0.068, models below zero 11/17
+    held=T2  base 11     : models  7, pairs  12 | (AI - universal) under human/object chars minus under self = -0.068 +/- 0.119, models below zero 4/7
+    held=T2  instruct 14 : models 10, pairs  36 | (AI - universal) under human/object chars minus under self = -0.057 +/- 0.086, models below zero 7/10
+
+=== by item
+AI-only items 65, universal items 114, missing ids []
+AI-only minus universal under the model's own identity: +0.053; under human/object characters: -0.036
+  held=all all models  : models 25, pairs 150 | diff = -0.089 +/- 0.062, below zero 16/25
+  held=all base 11     : models 11, pairs  66 | diff = -0.106 +/- 0.107, below zero 7/11
+  held=all instruct 14 : models 14, pairs  84 | diff = -0.076 +/- 0.074, below zero 9/14
+  held=T1  all models  : models  7, pairs  16 | diff = -0.094 +/- 0.115, below zero 5/7
+  held=T1  base 11     : no pairs
+  held=T1  instruct 14 : models  7, pairs  16 | diff = -0.094 +/- 0.115, below zero 5/7
+  held=T2  all models  : models 17, pairs  48 | diff = -0.054 +/- 0.074, below zero 10/17
+  held=T2  base 11     : models  7, pairs  12 | diff = -0.039 +/- 0.108, below zero 4/7
+  held=T2  instruct 14 : models 10, pairs  36 | diff = -0.064 +/- 0.105, below zero 6/10
