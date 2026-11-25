@@ -63,4 +63,4 @@ The follow-up experiments reported in v2 are collected in [`v2_controls/`](v2_co
 
 ## v3 self-other tests
 
-The self-other tests added in v3 (Section 4.1.1 and Appendices E–G) are collected in [`v3_self_other/`](v3_self_other/README.md): static embeddings, positive controls, characters, fictional third person, user-assistant swap, gap ratios, the character check relabel, the user slot and the self-aggression test. Each numbered folder holds the scripts, inputs and outputs of one test.
+The self-other tests added in v3 (Section 4.1.1 and Appendices F–I) are collected in [`v3_self_other/`](v3_self_other/README.md): static embeddings, positive controls, characters, fictional third person, user-assistant swap, gap ratios, the character check relabel, the user slot and the self-aggression test. Each numbered folder holds the scripts, inputs and outputs of one test.
